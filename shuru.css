@@ -1,0 +1,398 @@
+body{
+    background-color:rgba(135, 181, 94, 0.45);
+    color: black;
+    background-image: url(wall_1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.navi{
+    text-decoration: underline overline;
+    color: black;
+    font-size: 25px;
+    margin-left: 600px;
+}
+.abc{
+    text-decoration: none;
+    color:aquamarine;
+    margin: 15px;
+    font-size: 20px;
+    font-family:sans-serif;
+}
+.abc:hover{
+    color:chartreuse;
+    text-decoration: none;
+}
+.def{
+    height: 30px;
+    background-color:aquamarine;
+    color:black;
+    margin: 15px;
+    border-radius: 10%;
+    font-size: 20px;
+    border-style: dotted;
+}
+.def:hover{
+    cursor: pointer;
+    background-color:black;
+    color:antiquewhite;
+}
+.aeo:hover{
+  color: antiquewhite;
+
+}
+.ghi{
+    font-size: 50px;
+    font-family: 'Gill Sans MT';
+    margin-left: 50px;
+    padding-top: 20px;
+    cursor: pointer;
+    text-decoration: underline overline;
+    color:aquamarine;
+}
+.a{
+    color:cadetblue;
+    margin-top: 100px;
+    margin-left: 450px;
+    font-family:arial;
+}
+.b{
+    color:cadetblue;
+    margin-left: 450px;
+    font-family:arial;
+}
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: cadetblue;
+    border: none;
+    color:black;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    margin-left: 550px;
+    font-family: 'Gill Sans MT';
+  }
+  .button:hover{
+    background-color:aquamarine;
+    color:crimson;
+  }
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .button2 {
+    display: inline-block;
+    border-radius: 4px;
+    background-color:cadetblue;
+    border: none;
+    color:black;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    margin-left: 20px;
+    font-family: 'Gill Sans MT';
+  }
+  .button2:hover{
+    background-color:aquamarine;
+    color: black;
+  }
+  .button2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button2 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button2:hover span {
+    padding-right: 25px;
+  }
+  
+  .button2:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .ab{
+    font-family:Georgia;
+    color:aquamarine;
+    font-size: 50px;
+    margin-top: 70px;
+    margin-left: 20px;
+  }
+  .ac{
+    font-family:Georgia;
+    color:darkcyan;
+    font-size: 25px ;
+    float: left;
+    margin-left: 30px;
+  }
+  .hehe{
+    margin-left: 20px;
+    margin-top: 40px;
+    display: inline-block;
+  }
+  .ghii{
+    
+    font-size: 50px;
+    font-family: 'Gill Sans MT';
+    margin-left: 50px;
+    margin-top: 100px;
+    cursor: pointer;
+    text-decoration: underline overline;
+     color:aquamarine;
+  }
+  .az:hover{
+    color:crimson;
+  }
+  .container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .item-1{
+    width: 800px;
+    margin-right: 50px;
+
+  }
+  .item-2{
+    width: 400px;
+  }
+  .div-1{
+    background-color:black;
+    height: 500px;
+    width: 400px;
+  }
+  .div-2{
+    background-color:black;
+    height: 500px;
+    width: 400px;
+  }
+  .div-3{
+    background-color:black;
+    height: 500px;
+    width: 400px;
+  }
+  .maindiv{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+  }
+  .button {
+    font-family: Arial;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  
+  .button1:hover {
+    background-color: darkseagreen;
+    color: white;
+  }
+  .button2 {
+    font-family: Arial;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button3 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  
+  .button3:hover {
+    background-color:gold;
+    color: white;
+  }
+  .buttona {
+    font-family: Arial;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 200px;
+  }
+  
+  .buttonb {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  
+  .buttonb:hover {
+    background-color:silver;
+    color: white;
+  }
+  /*////////////////////////////*/
+  .buttonalpha {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: cadetblue;
+    border: none;
+    color:black;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-left: 550px;
+    font-family: 'Gill Sans MT';
+  }
+  .buttonalpha:hover{
+    background-color:aquamarine;
+    color:crimson;
+  }
+  .buttonalpha span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .buttonalpha span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .buttonalpha:hover span {
+    padding-right: 25px;
+  }
+  
+  .buttonalpha:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .bdiv{
+    margin-left: 550px;
+  }
+  .babc{
+    background-color:rgba(135, 181, 94, 0.45);
+    color: black;
+    background-image: url(loginsignup.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+  }
+  .ll{
+    font-size: 50px;
+    color: blanchedalmond;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+  }
+  .ld{
+    margin-top: 55px;
+    margin-left: 300px;
+  }
+  .login-form{
+    width: 500px;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    color: #fff;
+    margin-top: 300px;
+    margin-left: 500px;
+
+  }
+  .login-form p{
+    font-size: 20px;
+    margin: 15px 0;
+  }
+  .login-form input{
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 5px; 
+    color: black;
+  }
+  .login-form button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border-radius: 5px;
+    color: black;
+  }
+  .login-form button:hover{
+    color: white;
+    background-color: black;
+  }

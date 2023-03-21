@@ -1,0 +1,20 @@
+.junior{
+    height: 50px;
+    width: 70px;
+    margin: 5px;
+}
+.junior1{
+    align-content: end;
+}
+.container{
+    display: flex;
+}
+.a{
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+    font-family:sans-serif;
+}
+.a2{
+    font-size: 50px;
+}
